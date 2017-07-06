@@ -1,0 +1,19 @@
+#global {
+  margin-left: auto;
+  margin-right: auto;
+  width: ...; /* largeur obligatoire pour Ãªtre centrÃ© */
+}
+
+.h1 {
+  position: absolute; /* postulat de dÃ©part */
+  top: 50%; left: 50%; /* Ã  50%/50% du parent rÃ©fÃ©rent */
+  transform: translate(-50%, -50%); /* dÃ©calage de 50% de sa propre taille */
+}
+
+.bouton {
+color: red;
+}
+
+a {
+	text-decoration: none;
+}
